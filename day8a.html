@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width:100%;
+            height:350px;
+            background-color:darkcyan;
+            animation:anim 10s infinite;
+        }
+        ul{
+            display:flex;
+        }
+        li{
+            padding:20px;
+            margin-left:60px;
+            background-color:black;
+            color:white;
+            border-radius:50px;
+        }
+        @keyframes anim{
+            0%{background-color:darkkhaki;}
+            10%{background-color:rgb(98, 94, 44);}
+            40%{background-color:rgb(159, 131, 58);}
+            60%{background-color:rgb(230, 178, 9);}
+            100%{background-color:rgb(241, 162, 6);}
+        }
+        h1{
+            font-size:50px;
+        }
+        #a{
+            background-color:transparent;
+            color:white;
+            border:transparent;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="box">
+        <ul type="none">
+            <li>
+                <select id="a">
+                    <option>Home</option>
+                    <option>home1</option>
+                    <option>home2</option>
+                    <option>home3</option>
+                </select>
+            </li>
+            <li>About</li>
+            <li>Events</li>
+        </ul>
+       <marquee>
+        <img src="tom-removebg-preview.png" width="200px"><br><br>
+        <h1>Welcome all</h1>
+       </marquee>
+    </div>
+</body>
+</html>
